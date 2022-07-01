@@ -1,3 +1,5 @@
+#!/bin/bash
+
 curl -o $HOME/torlist.txt https://raw.githubusercontent.com/merkleID/torlist/main/torlist.txt
 
 ipset flush tor
