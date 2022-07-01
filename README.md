@@ -4,5 +4,5 @@ full tor exit-nodes list updated every hour
 
 user run-fist.sh to install ipset and create the ipset chain
 
-use insert-list.sh to insert this list into iptables using ipset
+you may insert-list.sh into your crontab as root to retrieve the list and flush+update ipset chain
 
