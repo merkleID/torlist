@@ -1,6 +1,6 @@
 #!/bin/bash
 
 apt-get install ipset
-ipset create tor iphash
-iptables -A INPUT -m set --match-set tor src -j DROP
+/usr/sbin/ipset create tor iphash
+/usr/sbin/iptables -A INPUT -m set --match-set tor src -j DROP
 
