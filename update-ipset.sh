@@ -10,7 +10,7 @@ curl -o $HOME/torlist.txt https://raw.githubusercontent.com/merkleID/torlist/mai
 
 /usr/sbin/ipset flush tor
 /usr/sbin/iptables -D INPUT -m set --match-set tor src -j DROP
-while read IP; do /sbin/ipset -q -A tor $IP; done < $HOME/torlist.txt
+while read IP; do /usr/sbin/ipset -q -A tor $IP; done < $HOME/torlist.txt
 /usr/sbin/iptables -A INPUT -m set --match-set tor src -j DROP
-ipset save tor
-echo $(date) 2>&1 | tee -a $HOME/torlist-update.log
+echo $(date) 2>&1
+) | tee -a $HOME/torlist-update.log
