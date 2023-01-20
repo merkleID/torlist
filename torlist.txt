@@ -1266,13 +1266,3 @@
 95.214.55.43
 95.216.107.148
 95.217.186.208
-</body></html>
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<h1>Service Unavailable</h1>
-</head><body>
-<hr>
-<html><head>
-problems. Please try again later.</p>
-<p>The server is temporarily unable to service your
-request due to maintenance downtime or capacity
-<title>503 Service Unavailable</title>
